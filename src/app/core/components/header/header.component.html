@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+  <span>Suitdesk</span>
+  <ul class="header-links">
+    <li><a routerLink="/social-media">Social</a></li>
+    <li><a routerLink="/complex-form">Register</a></li>
+    <li><a routerLink="/reactive-state">Employe list</a></li>
+  </ul>
+</mat-toolbar>
+<mat-progress-bar color="accent" *ngIf="loading$ | async" mode="indeterminate"></mat-progress-bar>
